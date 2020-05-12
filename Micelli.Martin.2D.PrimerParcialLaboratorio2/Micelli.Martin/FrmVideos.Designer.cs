@@ -108,6 +108,7 @@
             this.Name = "FrmVideos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Videos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmVideos_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.wmpReproductorDeVideo)).EndInit();
             this.ResumeLayout(false);
 

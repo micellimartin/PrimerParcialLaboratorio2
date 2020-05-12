@@ -34,8 +34,13 @@ namespace Micelli.Martin
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            this.wmpReproductorDeVideo.close();
             this.Close();
+        }
+
+        private void FrmVideos_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //Detiene el reproductor de video cuando se cierra el formulario
+            this.wmpReproductorDeVideo.close();
         }
     }
 }
