@@ -1,0 +1,6 @@
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Validaciones\bin\Debug\Validaciones.dll
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Validaciones\bin\Debug\Validaciones.pdb
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Validaciones\obj\Debug\Validaciones.csprojAssemblyReference.cache
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Validaciones\obj\Debug\Validaciones.csproj.CoreCompileInputs.cache
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Validaciones\obj\Debug\Validaciones.dll
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Validaciones\obj\Debug\Validaciones.pdb

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E66173B-2894-4C76-8D92-DF1D330F8135}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Micelli.Martin</RootNamespace>
+    <AssemblyName>Micelli.Martin</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAltaAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaAlumno.Designer.cs">
+      <DependentUpon>FrmAltaAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaAula.Designer.cs">
+      <DependentUpon>FrmAltaAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaDocente.Designer.cs">
+      <DependentUpon>FrmAltaDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaNoDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaNoDocente.Designer.cs">
+      <DependentUpon>FrmAltaNoDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaResponsable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaResponsable.Designer.cs">
+      <DependentUpon>FrmAltaResponsable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscadorDeAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscadorDeAlumno.Designer.cs">
+      <DependentUpon>FrmBuscadorDeAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInformacionAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInformacionAula.Designer.cs">
+      <DependentUpon>FrmInformacionAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInformacionPadres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInformacionPadres.Designer.cs">
+      <DependentUpon>FrmInformacionPadres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaResponsables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaResponsables.Designer.cs">
+      <DependentUpon>FrmListaResponsables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMusica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMusica.Designer.cs">
+      <DependentUpon>FrmMusica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecaudacionTotalJardin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecaudacionTotalJardin.Designer.cs">
+      <DependentUpon>FrmRecaudacionTotalJardin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecuadacionPorAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecuadacionPorAula.Designer.cs">
+      <DependentUpon>FrmRecuadacionPorAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSueldoDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSueldoDocente.Designer.cs">
+      <DependentUpon>FrmSueldoDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSueldoNoDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSueldoNoDocente.Designer.cs">
+      <DependentUpon>FrmSueldoNoDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVideos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVideos.Designer.cs">
+      <DependentUpon>FrmVideos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAltaAlumno.resx">
+      <DependentUpon>FrmAltaAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaAula.resx">
+      <DependentUpon>FrmAltaAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaDocente.resx">
+      <DependentUpon>FrmAltaDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaNoDocente.resx">
+      <DependentUpon>FrmAltaNoDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaResponsable.resx">
+      <DependentUpon>FrmAltaResponsable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscadorDeAlumno.resx">
+      <DependentUpon>FrmBuscadorDeAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInformacionAula.resx">
+      <DependentUpon>FrmInformacionAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInformacionPadres.resx">
+      <DependentUpon>FrmInformacionPadres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaResponsables.resx">
+      <DependentUpon>FrmListaResponsables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMusica.resx">
+      <DependentUpon>FrmMusica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecaudacionTotalJardin.resx">
+      <DependentUpon>FrmRecaudacionTotalJardin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecuadacionPorAula.resx">
+      <DependentUpon>FrmRecuadacionPorAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSueldoDocente.resx">
+      <DependentUpon>FrmSueldoDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSueldoNoDocente.resx">
+      <DependentUpon>FrmSueldoNoDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVideos.resx">
+      <DependentUpon>FrmVideos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{f3802e8f-4313-47d8-bde8-a8b03dd2aa4d}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Validaciones\Validaciones.csproj">
+      <Project>{1f8c1649-f9b0-4fcd-adc9-c5e63d88698b}</Project>
+      <Name>Validaciones</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tada.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flourish.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\town.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onestop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

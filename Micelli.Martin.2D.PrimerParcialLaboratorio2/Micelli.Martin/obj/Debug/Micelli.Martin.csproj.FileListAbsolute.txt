@@ -1,0 +1,54 @@
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Micelli.Martin.exe.config
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Micelli.Martin.exe
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Micelli.Martin.pdb
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csprojAssemblyReference.cache
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.Properties.Resources.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csproj.GenerateResource.cache
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csproj.CoreCompileInputs.cache
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.exe
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.pdb
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmPrincipal.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Entidades.dll
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Entidades.pdb
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csproj.CopyComplete
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Validaciones.dll
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Validaciones.pdb
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaDocente.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaNoDocente.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaAlumno.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaResponsable.resources
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Micelli.Martin.exe.config
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Micelli.Martin.exe
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Micelli.Martin.pdb
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Entidades.dll
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Validaciones.dll
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Entidades.pdb
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Validaciones.pdb
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csprojAssemblyReference.cache
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaAlumno.resources
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaDocente.resources
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaNoDocente.resources
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaResponsable.resources
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmPrincipal.resources
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.Properties.Resources.resources
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csproj.GenerateResource.cache
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csproj.CoreCompileInputs.cache
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csproj.CopyComplete
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.exe
+C:\Users\micel\Desktop\PP LABO 2 BACKUPS\version 2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.pdb
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmAltaAula.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmInformacionAula.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmListaResponsables.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmInformacionPadres.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmSueldoNoDocente.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmRecuadacionPorAula.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmRecaudacionTotalJardin.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmSueldoDocente.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmBuscadorDeAlumno.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmMusica.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.FrmVideos.resources
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\Interop.WMPLib.dll
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Interop.WMPLib.dll
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Micelli.Martin\obj\Debug\Micelli.Martin.csproj.ResolveComReference.cache
