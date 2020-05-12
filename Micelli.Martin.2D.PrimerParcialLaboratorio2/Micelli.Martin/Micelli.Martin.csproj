@@ -232,9 +232,6 @@
     <None Include="Resources\flourish.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\town.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\onestop.wav" />
   </ItemGroup>
   <ItemGroup>
