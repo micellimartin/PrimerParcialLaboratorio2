@@ -25,8 +25,6 @@ namespace Micelli.Martin
             }
         }
 
-        //Falta pasarle la info del responsable seleccionado a los campos del formulario altaresponsable
-
         public FrmListaResponsables(List<Responsable> listaResponsables)
         {
             InitializeComponent();
@@ -34,6 +32,7 @@ namespace Micelli.Martin
             this.lstboxResponsables.DataSource = this.listaResponsables;
         }
 
+        //Permite elegir un responsable de la lista con un doble click, que luego se usara para generar un objeto Alumno
         private void lstboxResponsables_DoubleClick(object sender, EventArgs e)
         {
             if (!(lstboxResponsables.SelectedItem is null))

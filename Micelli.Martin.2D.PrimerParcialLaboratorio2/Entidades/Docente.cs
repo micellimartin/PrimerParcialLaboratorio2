@@ -41,11 +41,7 @@ namespace Entidades
 
         protected override double CalcularSalario()
         {
-            //Primero obtengo las horas trabajadas en 1 dia
-            int horasTrabajadasDia = this.HoraSalida.Hour - this.HoraEntrada.Hour;
-
-            //Despues multiplico el valorHora por la cantidad de horas diarias por 20 días hábiles
-            return (this.valorHora * horasTrabajadasDia * 20);
+            return (this.valorHora * this.HorasMensuales);
         }
 
         public Docente(string nombre, string apellido, int dni, bool femenino, DateTime horaEntrada, DateTime horaSalida, double valorHora)

@@ -21,6 +21,8 @@ namespace Micelli.Martin
         private List<Alumno> listaAlumnosConAula;
         private List<Alumno> listaAlumnosSinAula;
 
+        #region Propiedades
+
         public Alumno Alumno
         {
             get
@@ -37,6 +39,8 @@ namespace Micelli.Martin
             }
         }
 
+        #endregion
+
         public FrmAltaAlumno(Responsable responsable, List<Alumno> listaAlumnosSinAula, List<Alumno> listaAlumnosConAula)
         {
             InitializeComponent();
@@ -45,6 +49,7 @@ namespace Micelli.Martin
             this.listaAlumnosConAula = listaAlumnosConAula;
         }
 
+        //Genera un objeto alumno, previa validacion
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             //Atributos Persona
@@ -128,7 +133,7 @@ namespace Micelli.Martin
                 precioCuotaOk = true;
             }
 
-            //Si se pasan todas las validaciones creo el objeto Responsable y el objeto Alumno
+            //Si se pasan todas las validaciones creo el objeto Alumno
             if (nombreOK && apellidoOK && sexoOK && dniOk && colorOk && legajoOk && precioCuotaOk)
             {
                 //Atributos de la clase Persona
@@ -183,6 +188,7 @@ namespace Micelli.Martin
                 this.alumno = new Alumno(nombre, apellido, dni, femenino, precioCuota, color, legajo, this.responsable);
 
                 //Verifico que el alumno no sea duplicado
+                //2 alumnos son iguales si tienen igual numero de legajo
                 bool existe = false;
 
                 foreach (Alumno a in this.listaAlumnosSinAula)

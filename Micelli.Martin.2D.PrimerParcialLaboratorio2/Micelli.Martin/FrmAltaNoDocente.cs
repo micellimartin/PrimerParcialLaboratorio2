@@ -33,8 +33,10 @@ namespace Micelli.Martin
             this.listadoAdministrativos = listadoAdministrativos;
         }
 
+        //Genera un no docente, previa validacion
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            //Auxiliares de validacion
             bool nombreOK = false;
             bool apellidoOK = false;
             bool sexoOK = false;

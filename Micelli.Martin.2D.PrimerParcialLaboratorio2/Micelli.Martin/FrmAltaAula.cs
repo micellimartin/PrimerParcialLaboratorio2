@@ -46,6 +46,8 @@ namespace Micelli.Martin
             this.lstboxAlumnosEnSala.AllowDrop = true;
         }
 
+        #region Envento Cambio de color seleccionado
+
         //Cambia el color de fondo del formulario y ademas cambia los alumnos sin aula que se muestran en la listbox
         private void cmbColor_SelectedValueChanged(object sender, EventArgs e)
         {
@@ -116,6 +118,11 @@ namespace Micelli.Martin
             }
         }
 
+        #endregion
+
+        #region Evento Cargar profesores
+
+        //Carga el cmbProfesor con los profesores del turno correspondiente
         private void cmbTurno_SelectedIndexChanged(object sender, EventArgs e)
         {
             List<Docente> auxDocentesMañana = new List<Docente>();
@@ -161,8 +168,10 @@ namespace Micelli.Martin
             }
         }
 
-        #region Drag and drop
-        //Estos manejadores de eventos permiten mover alumnos de una listbox a la otra
+        #endregion
+
+        #region Evento Drag and drop
+        //Estos manejadores de eventos permiten arrastrar a los alumnos para agregarlos a la sala
 
         private void lstboxAlumnosSinSala_MouseDown(object sender, MouseEventArgs e)
         {
@@ -199,8 +208,12 @@ namespace Micelli.Martin
 
         #endregion
 
+        #region Evento Guardar Aula
+
+        //Genera un objeto aula, previa validacion
         private void btnGuardarAula_Click(object sender, EventArgs e)
         {
+            //Auxiliares de validacion
             bool ColorOK = false;
             bool TurnoOK = false;
             bool ProfesorOK = false;
@@ -299,6 +312,7 @@ namespace Micelli.Martin
                         turno = Eturno.tarde;
                     }
 
+                    //Encuentro al docente que tengo que agregar al aula
                     Docente docente = null;
                     string auxDocente = this.cmbProfesor.SelectedItem.ToString();
 
@@ -312,6 +326,8 @@ namespace Micelli.Martin
                     }
 
                     this.aula = new Aula(color, turno, docente);
+
+                    //Agrego los alumnos al aula
                     this.aula.Alumnos = new List<Alumno>();
 
                     List<Alumno> listaAlumnos = new List<Alumno>();
@@ -324,16 +340,14 @@ namespace Micelli.Martin
                         {
                             if (alumnoTexto == alumnoObjeto.ToString())
                             {
+                                //La sobrecarga del operador + hace el Add
                                 if (aula + alumnoObjeto)
                                 {
                                     cantAlumnosAgregados++;
-                                    //listaAlumnos.Add(alumnoObjeto);
                                 }
                             }
                         }
                     }
-
-                    //aula.Alumnos = listaAlumnos;
 
                     //Remuevo los alumnos asignados al aula nueva de la lista de alumnos sin aula y los agrego a la lista de alumnos con aula
 
@@ -357,6 +371,10 @@ namespace Micelli.Martin
             }                          
         }
 
+        #endregion
+
+        #region Evento Remover alumnos de la sala con doble click
+
         private void lstboxAlumnosEnSala_DoubleClick(object sender, EventArgs e)
         {
             if (!(lstboxAlumnosEnSala.SelectedItem is null))
@@ -367,6 +385,10 @@ namespace Micelli.Martin
             }
         }
 
+        #endregion
+
+        #region Evento instrucciones
+
         private void btnInstrucciones_Click(object sender, EventArgs e)
         {
             StringBuilder mensaje = new StringBuilder();
@@ -375,5 +397,7 @@ namespace Micelli.Martin
 
             MessageBox.Show(mensaje.ToString(), "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
         }
+
+        #endregion
     }
 }

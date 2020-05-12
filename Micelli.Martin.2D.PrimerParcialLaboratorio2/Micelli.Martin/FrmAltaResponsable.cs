@@ -22,6 +22,8 @@ namespace Micelli.Martin
         private List<Alumno> listaAlumnosConAula;
         private List<Alumno> listaAlumnosSinAula;
 
+        #region Propiedades
+
         public Responsable Responsable
         {
             get
@@ -36,7 +38,9 @@ namespace Micelli.Martin
             {
                 return this.alumno;
             }
-        } 
+        }
+
+        #endregion
 
         public FrmAltaResponsable(List<Responsable> ListaResponables, List<Alumno> ListaAlumnosSinAula, List<Alumno> ListaAlumnosConAula)
         {
@@ -46,11 +50,11 @@ namespace Micelli.Martin
             this.listaAlumnosConAula = ListaAlumnosConAula;
         }
 
+        //Genera un responsable, previa validacion
         private void btnAgregarNuevoResponsable_Click(object sender, EventArgs e)
         {
-            //Valido los atributos del Responsable
+            //Auxiliares de validacion
 
-            //Atributos Responsable
             bool nombreOK = false;
             bool apellidoOK = false;
             bool sexoOK = false;
@@ -63,7 +67,6 @@ namespace Micelli.Martin
 
             StringBuilder mensajeError = new StringBuilder();
 
-            //Valido atributos Persona
             if (!(ValidacionesTexto.ValidarStringSoloLetras(this.txtNombre.Text)))
             {
                 mensajeError.AppendLine("Ocurrio un error con el nombre");
@@ -118,6 +121,7 @@ namespace Micelli.Martin
                 numeroTelefonoOk = true;
             }
 
+            //Si se pasan todas las validaciones creo el objeto Responsable
             if (nombreOK && apellidoOK && dniOk && sexoOK && parentescoOk && numeroTelefonoOk)
             {
                 //Atributos de la clase Persona
@@ -226,6 +230,7 @@ namespace Micelli.Martin
             }
         }
 
+        //Evento que permite asociar un responsable ya existente a un nuevo alumno
         private void btnUsarResponsableExistente_Click(object sender, EventArgs e)
         {
             FrmListaResponsables fr = new FrmListaResponsables(this.listaResponables);

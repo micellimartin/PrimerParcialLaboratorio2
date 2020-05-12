@@ -24,6 +24,7 @@ namespace Micelli.Martin
             this.listaAlumnosConaAula = listaAlumnosConaAula;
         }
 
+        //Busca un alumno/s en las listas de alumnos sin aula y con aula que tenga el mismo apellido que el ingresado
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             this.lstboxInformacionAlumno.Items.Clear();

@@ -30,6 +30,8 @@ namespace Micelli.Martin
             InitializeComponent();
         }
 
+        #region Archivo
+
         private void tsmiAltaDocente_Click(object sender, EventArgs e)
         {
             FrmAltaDocente f = new FrmAltaDocente(this.listadoDocentesSinAula, this.listadoDocentesConAula);
@@ -82,16 +84,7 @@ namespace Micelli.Martin
                 sPlayer.Play();
             }
         }
-
-        private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (MessageBox.Show("Esta realmente seguro de cerrar?", "Cierre", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-            {
-                //e refiera al evento, e.Cancel es una propiedad de del evento, que si esta en true lo cancela. En este casa evita el cierre.
-                e.Cancel = true;
-            }
-        }
-
+      
         private void tsmiAltaAula_Click(object sender, EventArgs e)
         {
             FrmAltaAula f = new FrmAltaAula(this.listadoAlumnosSinAula, this.listadoAlumnosConAula, this.listadoDocentesSinAula, this.listadoDocentesConAula);
@@ -108,6 +101,69 @@ namespace Micelli.Martin
                 sPlayer.Play();
             }
         }
+
+        private void tsmiSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        #endregion       
+
+        #region Reporte
+
+        private void tsmiInformacionPadres_Click(object sender, EventArgs e)
+        {
+            FrmInformacionPadres f = new FrmInformacionPadres(this.listadoAulas);
+            f.ShowDialog();
+        }
+
+        private void tsmiSueldoNoDocente_Click(object sender, EventArgs e)
+        {
+            FrmSueldoNoDocente f = new FrmSueldoNoDocente(this.listadoAdministrativos);
+            f.ShowDialog();
+        }
+
+        private void tsmiRecaudacionPorAula_Click(object sender, EventArgs e)
+        {
+            FrmRecuadacionPorAula f = new FrmRecuadacionPorAula(this.listadoAulas);
+            f.ShowDialog();
+        }
+
+        private void tsmiRecaudacionTotalPorJardin_Click(object sender, EventArgs e)
+        {
+            FrmRecaudacionTotalJardin f = new FrmRecaudacionTotalJardin(this.listadoAulas);
+            f.ShowDialog();
+        }
+
+        private void tsmiSueldoDocente_Click(object sender, EventArgs e)
+        {
+            FrmSueldoDocente f = new FrmSueldoDocente(this.listadoDocentesSinAula, this.listadoDocentesConAula);
+            f.ShowDialog();
+        }
+
+        #endregion
+
+        #region Funciones Varias
+
+        private void tsmiBuscarAlumnoPorApellido_Click(object sender, EventArgs e)
+        {
+            FrmBuscadorDeAlumno f = new FrmBuscadorDeAlumno(this.listadoAlumnosSinAula, this.listadoAlumnosConAula);
+            f.ShowDialog();
+        }
+
+        private void tsmiEscucharMusica_Click(object sender, EventArgs e)
+        {
+            FrmMusica f = new FrmMusica();
+            f.ShowDialog();
+        }
+
+        private void tsmiVerVideos_Click(object sender, EventArgs e)
+        {
+            FrmVideos f = new FrmVideos();
+            f.ShowDialog();
+        }
+
+        #endregion
 
         #region Instanciar objetos
 
@@ -383,66 +439,22 @@ namespace Micelli.Martin
 
         #endregion
 
+        private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Esta realmente seguro de cerrar?", "Cierre", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                //e refiera al evento, e.Cancel es una propiedad de del evento, que si esta en true lo cancela. En este casa evita el cierre.
+                e.Cancel = true;
+            }
+        }
+
         private void lstboxListaAulas_DoubleClick(object sender, EventArgs e)
         {
             if (!(lstboxListaAulas.SelectedItem is null))
             {
                 FrmInformacionAula f = new FrmInformacionAula((Aula)this.lstboxListaAulas.SelectedItem);
                 f.ShowDialog();
-            }               
-        }
-
-        private void tsmiSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void tsmiInformacionPadres_Click(object sender, EventArgs e)
-        {
-            FrmInformacionPadres f = new FrmInformacionPadres(this.listadoAulas);
-            f.ShowDialog();
-        }
-
-        private void tsmiSueldoNoDocente_Click(object sender, EventArgs e)
-        {
-            FrmSueldoNoDocente f = new FrmSueldoNoDocente(this.listadoAdministrativos);
-            f.ShowDialog();
-        }
-
-        private void tsmiRecaudacionPorAula_Click(object sender, EventArgs e)
-        {
-            FrmRecuadacionPorAula f = new FrmRecuadacionPorAula(this.listadoAulas);
-            f.ShowDialog();
-        }
-
-        private void tsmiRecaudacionTotalPorJardin_Click(object sender, EventArgs e)
-        {
-            FrmRecaudacionTotalJardin f = new FrmRecaudacionTotalJardin(this.listadoAulas);
-            f.ShowDialog();
-        }
-
-        private void tsmiSueldoDocente_Click(object sender, EventArgs e)
-        {
-            FrmSueldoDocente f = new FrmSueldoDocente(this.listadoDocentesSinAula, this.listadoDocentesConAula);
-            f.ShowDialog();
-        }
-
-        private void tsmiBuscarAlumnoPorApellido_Click(object sender, EventArgs e)
-        {
-            FrmBuscadorDeAlumno f = new FrmBuscadorDeAlumno(this.listadoAlumnosSinAula, this.listadoAlumnosConAula);
-            f.ShowDialog();
-        }
-
-        private void tsmiEscucharMusica_Click(object sender, EventArgs e)
-        {
-            FrmMusica f = new FrmMusica();
-            f.ShowDialog();
-        }
-
-        private void tsmiVerVideos_Click(object sender, EventArgs e)
-        {
-            FrmVideos f = new FrmVideos();
-            f.ShowDialog();
+            }
         }
     }
 }

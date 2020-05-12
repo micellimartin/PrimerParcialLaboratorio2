@@ -23,6 +23,7 @@ namespace Micelli.Martin
             this.cmbAula.DataSource = listadoAulas;
         }
 
+        //Cambia la lista de responsables segun el aula seleccionada
         private void cmbAula_SelectedValueChanged(object sender, EventArgs e)
         {
             Aula aulaSeleccionada = (Aula)this.cmbAula.SelectedItem;

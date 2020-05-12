@@ -28,6 +28,7 @@ namespace Micelli.Martin
             this.lstboxAlumnosEnSala.DataSource = this.aula.Alumnos;
         }
 
+        //Estable el BackColor segun el color del aula
         public void EstablecerColorAula()
         {
             EColores color = this.aula.ColorSala;

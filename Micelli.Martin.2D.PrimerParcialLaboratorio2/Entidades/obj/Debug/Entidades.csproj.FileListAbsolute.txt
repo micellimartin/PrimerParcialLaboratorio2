@@ -4,3 +4,9 @@ C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\obj
 C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\obj\Debug\Entidades.dll
 C:\Users\micel\Desktop\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\obj\Debug\Entidades.pdb
+C:\Users\micel\Desktop\PrimerParcialLaboratorio2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\bin\Debug\Entidades.dll
+C:\Users\micel\Desktop\PrimerParcialLaboratorio2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\micel\Desktop\PrimerParcialLaboratorio2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\micel\Desktop\PrimerParcialLaboratorio2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\micel\Desktop\PrimerParcialLaboratorio2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\obj\Debug\Entidades.dll
+C:\Users\micel\Desktop\PrimerParcialLaboratorio2\Micelli.Martin.2D.PrimerParcialLaboratorio2\Entidades\obj\Debug\Entidades.pdb
